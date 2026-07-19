@@ -15,6 +15,7 @@ body {
   --bg-primary-color: #0c0c0c;
   --bg-fill-color: #fdfdfc;
   --bg-food-color: coral;
+  --bg-snake-head-color: #167e27;
 
 
   /* Text color */
@@ -95,7 +96,7 @@ section .infos {
 }
 .infos .info {
   border: var(--border-sm) solid var(--border-primary-color);
-  border-radius: var(--border-radius-sm);
+  border-radius: var(--border-radius-md);
   padding: var(--space-sm);
 }
 .board {
@@ -135,4 +136,7 @@ section .infos {
 }
 .modal .game-over{
   display: none;
+}
+.snake_head{
+  background-color: var(--bg-snake-head-color);
 }
